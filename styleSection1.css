@@ -103,6 +103,12 @@ body{
     #id1lefttext{
         font-size: 15px;
     }
+    #menu{
+        display: none;
+    }
+    footer{
+        display: none;
+    }
 } 
 
 @media screen and (max-width: 1068px) {
