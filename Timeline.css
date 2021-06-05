@@ -4,7 +4,7 @@
 .timeline {
     line-height: 1.4em;
     list-style: none;
-    margin: 0;
+    margin: 0 auto;
     padding: 0;
 }
 .timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
@@ -27,8 +27,13 @@
     text-transform: uppercase;
     white-space: nowrap;
     padding-top: 30px;
+    font-family: Helvetica, Arial, sans-serif;
     
 }
+#Timeline1{
+    margin-top: 30px;
+}
+
 /*----- TIMELINE MARKER -----*/
 .timeline-marker {
     position: absolute;
@@ -73,6 +78,8 @@
 .test{
     background-color: white;
     padding: 30px;
+    border-radius: 10px;
+    width: 600px;
 }
 .timeline-content p:last-child {
     margin-bottom: 0;
@@ -96,6 +103,25 @@
 .period .timeline-title {
     margin: 0;
 }
+.timeline-title{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    font-weight: bold;
+    letter-spacing: -2px;
+    margin-bottom: 5px;
+}
+.timeline-title2{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 30px;
+    color:rgb(91,91,91);
+    letter-spacing: -2px;
+    margin-bottom: 3px;
+}
+.timeline-title3{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 15px;
+    color:blue;
+}
 /*---------------------------------------------- MOD: TIMELINE SPLIT ----------------------------------------------*/
 @media (min-width: 768px) {
     .timeline-split .timeline {
@@ -118,8 +144,13 @@
     .timeline-split .timeline-info {
         padding-right: 30px;
    }
-    .timeline-split .period .timeline-title {
+    .timeline-split .period .timeline-re {
         position: relative;
         left: -45px;
    }
+}
+
+#Timeline1{
+    display: flex;
+    flex-direction: row;
 }
