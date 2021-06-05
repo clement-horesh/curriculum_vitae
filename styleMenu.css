@@ -18,6 +18,4 @@ a{
     font-weight: lighter;
     margin-right: 10px;
 }
-.active{
-    color: blue;
-}
+.active_menu{color: blue;}
