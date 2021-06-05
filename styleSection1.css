@@ -69,34 +69,41 @@ body{
 }
 /*/Telephones/*/
 @media screen and (max-width: 734px) {
+    html{
+        padding: 20px;
+    }
     #main{
         width: 100%;
     }
     #id1{
         width: 100%;
         flex-direction: column-reverse;
+        height: fit-content;
+
     }
     #id1_Titre{
         margin: 0 auto;
         font-size: 40px;
         line-height: 35px;
         max-width: 400px;
+        width: 100%;
         margin-top: 100px;
     }
     #id1_TitreB{
         font-size: 40px;
     }
     #id1left{
-        height: 700px;
+        height: 600px;
         max-width: 400px;
         margin: 0 auto;
         margin-top: 20px;
         border-radius: 10px;
-
+        width: 100%;
     }
     #id1right{
-        height: 700px;
+        height: 600px;
         max-width: 400px;
+        width: 100%;
         margin: 0 auto;
         border-radius: 10px;
     }
