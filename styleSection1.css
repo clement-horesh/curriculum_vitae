@@ -1,0 +1,84 @@
+*{margin: 0px;padding: 0px;}
+body{
+    background-color: rgb(245,245,247);
+}
+#main{
+    width: 1400px;
+    margin: 0 auto;
+}
+/*/Premiere partie, photo + description/*/
+#id1_Titre{
+    font-family: Helvetica, Arial, sans-serif;
+    font-size: 60px;
+    line-height: 55px;
+    letter-spacing: -3px;
+    font-weight:bold;
+    width: 1100px;
+    margin: 0 auto;
+    margin-top: 200px;
+}
+#id1_TitreB{
+    font-size: 60px;
+    color: rgb(91,91,91);
+    letter-spacing: -1px;
+}
+#id1{
+    margin-top: 30px;
+    width: 100%;
+    height: 740px;
+    display: flex;
+    justify-content: space-between;
+}
+#id1left{
+    height: 100%;
+    width: 685px;
+    background-color: white;
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    border-radius: 10px;
+}
+#id1lefttext{
+    align-items: flex-start;
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+    color: rgb(91,91,91);
+}
+#id1right{
+    height: 100%;
+    width: 685px;
+    background: linear-gradient(90deg, rgba(0,151,255,1) 0%, rgba(0,52,255,1) 100%);
+    border-radius: 10px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+/*/Telephones/*/
+@media screen and (max-width: 479px) {
+    #main{
+        width: 100%;
+    }
+    #id1{
+        width: 100%;
+        flex-direction: column;
+    }
+    #id1_Titre{
+        font-size: 40px;
+        line-height: 35px;
+        width: 100%;
+    }
+    #id1_TitreB{
+        font-size: 40px;
+    }
+    #id1left{
+        height: 1500px;
+        width: 100%;
+        border-radius: 0px;
+    }
+    #id1right{
+        height: 1500px;
+        width: 100%;
+        border-radius: 0px;
+    }
+} 
