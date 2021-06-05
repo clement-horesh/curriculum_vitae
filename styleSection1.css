@@ -44,7 +44,20 @@ body{
     font-family: Helvetica, Arial, sans-serif;
     font-weight: bold;
     color: rgb(91,91,91);
+    font-size: 17px;
 }
+#id1lefttext a{
+    color: rgba(0,151,255,1);
+    font-family: Helvetica, Arial, sans-serif;
+    font-weight: bold;
+}
+#id1lefttext span{
+    color: black;
+}
+#id1lefttext a:hover{
+    text-decoration: underline;
+}
+
 #id1right{
     height: 100%;
     width: 685px;
@@ -55,7 +68,7 @@ body{
     justify-content: center;
 }
 /*/Telephones/*/
-@media screen and (max-width: 1209px) {
+@media screen and (max-width: 734px) {
     #main{
         width: 100%;
     }
@@ -64,10 +77,10 @@ body{
         flex-direction: column-reverse;
     }
     #id1_Titre{
-        margin-left: 30px;
+        margin: 0 auto;
         font-size: 40px;
         line-height: 35px;
-        width: 100%;
+        max-width: 400px;
         margin-top: 100px;
     }
     #id1_TitreB{
@@ -75,15 +88,22 @@ body{
     }
     #id1left{
         height: 700px;
-        width: 100%;
-        margin-top: -10px;
-        border-radius: 10px 10px 0px 0px;
+        max-width: 400px;
+        margin: 0 auto;
+        margin-top: 20px;
+        border-radius: 10px;
         z-index: 10;
-        
     }
     #id1right{
         height: 700px;
-        width: 100%;
-        border-radius: 0px;
+        max-width: 400px;
+        margin: 0 auto;
+        border-radius: 10px;
+    }
+    #id1lefttext{
+        font-size: 15px;
     }
 } 
+
+@media screen and (max-width: 1068px) {
+}
