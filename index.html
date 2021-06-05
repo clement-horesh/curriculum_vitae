@@ -1,193 +1,403 @@
 <!doctype html>
 <html lang="fr">
-<head>
-  <meta charset="utf-8">
-  <title>CV Horesh</title>
-  <link rel="stylesheet" href="styleMenu.css">
-  <link rel="stylesheet" href="styleHome.css">
-  <link rel="stylesheet" href="Timeline.css">
-  <script src="script.js"></script>
-  <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
-
-</head>
-<body>
-  <div id="all">
-    <!--Menu-->
-    <div id="menu">
-      <div>
-        <a href="#" id="link1" class="active">Introduction</a>
-        <a href="#" id="link2">Scolaire</a>
-        <a href="#" id="link3">Professionnel</a>
-        <a href="#" id="link4">Compétences</a>
-        <a href="#" id="link5">Centres d'intérêts</a>
-      </div>
-      <div>
-          <p>Curriculum Vitae - Clément Horesh</p>
-      </div>
-    </div>
-
-    <!--Section n1-->
-    <div class="sectionn" id="Introduction">
-      <a name="id1"></a>
-      <p id="id1_Titre">Clément Horesh</br><span id="id1_TitreB">Curriculum Vitae</span></p>
-
-        <div id="id1">
-            <div id="id1left">
-              <div id="id1lefttext">
-                <p>Clement HORESH</p>
-                <p>Date de naissance : 19/05/2000</p>
-                <p>Adresse : 15 rue Bartholdi, 68000 Colmar</p>
-                <p>E-mail :horeshclementpro@gmail.com</p>
-                <p>Numéro de telephone : +336 51 78 83 86</p>
-              </div>
+    <head>
+        <meta charset="utf-8">
+        <title>CV Horesh</title>
+        <link rel="stylesheet" href="styleMenu.css">
+        <link rel="stylesheet" href="styleSection1.css">
+        <link rel="stylesheet" href="Timeline.css">
+        <link rel="stylesheet" href="styleCompBlock.css">
+        <link rel="stylesheet" href="styleSection4.css">
+        <script src="script.js"></script>
+        <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.5.1/jquery.min.js"></script>
+    </head>
+    <body>
+        <div id="main">
+            <!--Menu-->
+            <nav id="menu">
+                <div>
+                    <a href="#" id="link1" class="active_menu">Introduction</a>
+                    <a href="#" id="link2">Scolaire</a>
+                    <a href="#" id="link3">Professionnel</a>
+                    <a href="#" id="link4">Compétences</a>
+                    <a href="#" id="link5">Centres d'intérêts</a>
+                </div>
+                <div>
+                    <p>Curriculum Vitae - Clément Horesh</p>
+                </div>
+            </nav>
+            <!--Section n1-->
+            <section id="Introduction">
+                <a name="id1"></a>
+                <p id="id1_Titre">Clément Horesh</br><span id="id1_TitreB">Curriculum Vitae</span></p> 
+                <div id="id1">
+                    <div id="id1left">
+                        <div id="id1lefttext">
+                            <p>Clement HORESH</br>
+                            Date de naissance : 19/05/2000</br>
+                            Adresse : 15 rue Bartholdi, 68000 Colmar</br>
+                            E-mail : horeshclementpro@gmail.com</br>
+                            Numéro de telephone : +336 51 78 83 86</p>
+                        </div>
+                    </div>
+                    <div id="id1right">
+                        <img src="PhotoCV.jpg">
+                    </div>
+                </div>
+            </section>
+            <!--Section n2-->
+            <div class="sectionn" id="Scolaire">
+            <a name="id2"></a>
+            <h1 id="id1_Titre">Formation scolaire</h1>
+                <div id="Timeline1">
+                <ul class="timeline timeline-split">
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>2019 - 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="test">
+                            <h3 class="timeline-title">ECS</h3>
+                            <h3 class="timeline-title2">CPGE</h3>
+                            <h3 class="timeline-title3">Lycée Montaigne, 68100 Mulhouse</h3>
+                            <p>
+                            -Classe préparatoire aux grandes écoles (CPGE). 
+                            -Cursus ECS d’une durée de 2 ans, actuellement en 
+                            2ème année </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>2018 - 2019</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="test">
+                            <h3 class="timeline-title">PTSI</h3>
+                            <h3 class="timeline-title2">CPGE</h3>
+                            <h3 class="timeline-title3">Lycée Louis Couffignal, 67000 Strasbourg</h3>
+                            <p>-Classe préparatoire aux grandes écoles (CPGE). 
+                            -Cursus PTSI d’une durée de 2 ans, changement 
+                            de filière à la fin de la première année </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>2015 - 2018</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="test">
+                            <h3 class="timeline-title">BAC S SVT</h3>
+                            <h3 class="timeline-title2">Bac général</h3>
+                            <h3 class="timeline-title3">Lycée Auguste Bartholdi, 68000 Colmar</h3>
+                            <p>
+                            Obtention d’un bac général en filière scientifique 
+                            (Bac S) option Science de la Vie et de la Terre.  </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>2015</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="test">
+                            <h3 class="timeline-title">Brevet des colleges</h3>
+                            <h3 class="timeline-title3">College Victor Hugo, 68000 Colmar</h3>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                </div>
             </div>
-            <div id="id1right">
+            <div class="sectionn" id="Professionnel">
+            <a name="id3"></a>
+            <div class="Titre1100">
+                <h1 id="id1_Titre">Expérience professionnelle</h1>
+                <p class="id1_Description">Ci dessous la liste de mes experiences professionnelles qui m'ont pour l'instant permis une premiere approche du monde du travail et une decouverte des contraintes reels du travail pour qqu</p>
+            </div>    
+                <div id="Timeline1">
+                <ul class="timeline timeline-split">
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>2019 - 2021</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="test">
+                            <h3 class="timeline-title">Manutention</h3>
+                            <h3 class="timeline-title2">CPGE</h3>
+                            <h3 class="timeline-title3">Lycée Montaigne, 68100 Mulhouse</h3>
+                            <p>
+                            -Classe préparatoire aux grandes écoles (CPGE). 
+                            -Cursus ECS d’une durée de 2 ans, actuellement en 
+                            2ème année </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>Août 2019
+                            </span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="test">
+                            <h3 class="timeline-title">Manutention</h3>
+                            <h3 class="timeline-title3">Pharmacie du Mortier, 68170 Rixheim</h3>
+                            <p>Travaux de manutention dans l’optique d’une 
+                            automatisation des stocks</p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>Août 2018</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="test">
+                            <h3 class="timeline-title">Gestion d’un site e-commerce</h3>
+                            <h3 class="timeline-title3">Futur Home Shop, 67000 Strasbourg</h3>
+                            <p>
+                            Gestion et preparations des commandes, ajout de 
+                            nouveaux articles et amelioration/optimisation de 
+                            l’interface utilisateur </p>
+                            </div>
+                        </div>
+                    </li>
+                    <li class="timeline-item">
+                        <div class="timeline-info">
+                            <span>2015</span>
+                        </div>
+                        <div class="timeline-marker"></div>
+                        <div class="timeline-content">
+                            <div class="test">
+                            <h3 class="timeline-title">Stage en entreprise</h3>
+                            <h3 class="timeline-title3">Henninger SAS, 68250 Rouffach</h3>
+                            <p>
+                            Stage obligatoire de 3ème dans une entreprise de 
+                            bâtiment, sur le terrain et dans les bureaux </p>
+                            </div>
+                        </div>
+                    </li>
+                </ul>
+                </div>
+            </div>
+            <div  class="sectionn" id="Compétences">
+                <a name="id4"></a>
+                <h1 id="id1_Titre">Compétences générales</h1>
+                <h1 id="id2_Titre">Langues</h1>
+                <div class="compt">
+                    <div class="CompBlock" id="CompBlock1">
+                        <div class="CompBlock_divIMG">
+                            <img class="CompBlock_IMG"src="DPFR.png">
+                        </div>
+                        <div class="CompBlock_Bottom" id="CompBlock1_Bottom">
+                            <p class="CompBlock_text">
+                                <span class="CompBlock_Title">Francais</span></br>Langue maternelle.</br>
+                                <span class="CompBlock_color" id="CompBlock1_color">Maitrisée.</span>
+                            </p>
+                        </div>
+                    </div>
+                    <div class="CompBlock" id="CompBlock1">
+                        <div class="CompBlock_divIMG">
+                            <img class="CompBlock_IMG"src="PS.png">
+                        </div>
+                        <div class="CompBlock_Bottom" id="CompBlock1_Bottom">
+                            <p class="CompBlock_text">
+                                <span class="CompBlock_Title">Anglais</span></br>
+                                Niveau B2/C1.</br>
+                                <span class="CompBlock_color" id="CompBlock1_color">En cours de perfectionnement.</span>
+                            </p>
+                        </div>
+                    </div>
+                </div>
+            <h1 id="id2_Titre">Bureautique</h1>
+            <div class="compt">
+                        <div class="CompBlock" id="CompBlock1">
+                        <div>
+                            <div class="CompBlock_divIMG">
+                                <img class="CompBlock_IMG"src="PS.png">
+                            </div>
+                            <div class="CompBlock_Bottom" id="CompBlock1_Bottom">
+                                <p class="CompBlock_text">
+                                    <span class="CompBlock_Title">Photoshop</span></br>
+                                    Connaissance de la plupart des bases.</br>
+                                    <span class="CompBlock_color" id="CompBlock1_color">Toujours en cours d'apprentissage.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CompBlock" id="CompBlock2">
+                        <div>
+                            <div class="CompBlock_divIMG">
+                                <img class="CompBlock_IMG"src="EX.png">
+                            </div>
+                            <div class="CompBlock_Bottom" id="CompBlock2_Bottom">
+                                <p class="CompBlock_text">
+                                    <span class="CompBlock_Title">Excel</span></br>
+                                    Connaissance de la plupart des bases.</br>
+                                    <span class="CompBlock_color" id="CompBlock2_color">Toujours en cours d'apprentissage.</span>
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="CompBlock" id="CompBlock3">
+                        <div>
+                            <div class="CompBlock_divIMG">
+                                <img class="CompBlock_IMG"src="WO.png">
+                            </div>
+                            <div class="CompBlock_Bottom" id="CompBlock3_Bottom">
+                                <p class="CompBlock_text">
+                                    <span class="CompBlock_Title">Word</span></br>
+                                    Utilisation fréquente depuis environ 6 ans.</br>
+                                    <span class="CompBlock_color" id="CompBlock3_color">Maitrisé.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                    <div class="CompBlock" id="CompBlock2_1">
+                        <div>
+                            <div class="CompBlock_divIMG">
+                                <img class="CompBlock_IMG"src="XD.png">
+                            </div>
+                            <div class="CompBlock_Bottom" id="CompBlock2_1_Bottom">
+                                <p class="CompBlock_text">
+                                    <span class="CompBlock_Title">Adobe XD</span></br>
+                                    Connaissance de la plupart des bases.</br>
+                                    <span class="CompBlock_color" id="CompBlock2_1_color">Toujours en cours d'apprentissage.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+            </div>
+            <div class="compt">
+                    <div class="CompBlock" id="CompBlock2_2">
+                        <div>
+                            <div class="CompBlock_divIMG">
+                                <img class="CompBlock_IMG"src="PW.png">
+                            </div>
+                            <div class="CompBlock_Bottom" id="CompBlock2_2_Bottom">
+                                <p class="CompBlock_text">
+                                    <span class="CompBlock_Title">PowerPoint</span></br>
+                                    Connaissance de la plupart des bases.</br>
+                                    <span class="CompBlock_color" id="CompBlock2_2_color">Toujours en cours d'apprentissage.</span>
+                                </p>
+                            </div>
+                        </div>    
+                    </div>
+                    <div class="CompBlock" id="CompBlock3">
+                        <div>
+                            <div class="CompBlock_divIMG">
+                                <img class="CompBlock_IMG"src="WO.png">
+                            </div>
+                            <div class="CompBlock_Bottom" id="CompBlock3_Bottom">
+                                <p class="CompBlock_text">
+                                    <span class="CompBlock_Title">Word</span></br>
+                                    Connaissance de la plupart des bases.</br>
+                                    <span class="CompBlock_color" id="CompBlock3_color">Toujours en cours d'apprentissage.</span>
+                                </p>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <h1 id="id2_Titre">Font-End</h1>
+            <h1 id="id2_Titre">Autres langages informatique</h1>
+            
+            <!--Section 4-->
+            <div class="sectionn" id="Centres">
+                <a name="id5"></a>
+                <h1 id="id1_Titre">Centres d’intérêts</h1>
+                <h1 id="id2_Titre">Creation d’une micro-entreprise</h1>
+                <p>J'ai essaye avec 2 amis de creer une micro entreprise nommee Pods. qui avait pour but de repondre aux nouveaux besoin de diversite des Juuls </p>
+                <div class="centres_block">
 
+                </div>
+            </div>
+            <!--Section 5-->
+            <div class="sectionn" id="Download">
+                <a name="id6"></a>
+                <h1 id="id1_Titre">Telechargements</h1>
+                <div class="centres_block">
+
+                </div>
             </div>
         </div>
-    </div>
-    <div class="sectionn" id="Scolaire">
-      <a name="id2"></a>
-      <h1 id="id1_Titre">Formation scolaire</h1>
-        <div id="Timeline1">
-          <ul class="timeline timeline-split">
-            <li class="timeline-item">
-                <div class="timeline-info">
-                    <span>2019 - 2021</span>
-                </div>
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="test">
-                    <h3 class="timeline-title">Event Title</h3>
-                    <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                        eu pede mollis pretium. Pellentesque ut neque.
-                        Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                        eu pede mollis pretium. Pellentesque ut neque.
-                        Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                        eu pede mollis pretium. Pellentesque ut neque. </p>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-item">
-                <div class="timeline-info">
-                    <span>2018 - 2019</span>
-                </div>
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="test">
-                    <h3 class="timeline-title">Event Title</h3>
-                    <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                        eu pede mollis pretium. Pellentesque ut neque. </p>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-item">
-                <div class="timeline-info">
-                    <span>2015 - 2018</span>
-                </div>
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="test">
-                    <h3 class="timeline-title">Event Title</h3>
-                    <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                        eu pede mollis pretium. Pellentesque ut neque. </p>
-                    </div>
-                </div>
-            </li>
-            <li class="timeline-item">
-                <div class="timeline-info">
-                    <span>April 28, 2016</span>
-                </div>
-                <div class="timeline-marker"></div>
-                <div class="timeline-content">
-                    <div class="test">
-                    <h3 class="timeline-title">Event Title</h3>
-                    <p>Nullam vel sem. Nullam vel sem. Integer ante arcu, accumsan a, consectetuer eget, posuere ut, mauris. Donec orci lectus, aliquam ut, faucibus non, euismod id, nulla. Donec vitae sapien ut libero venenatis faucibus. ullam dictum felis
-                        eu pede mollis pretium. Pellentesque ut neque. </p>
-                    </div>
-                </div>
-            </li>
-        </ul>
-        </div>
-    </div>
-    <div class="sectionn" id="Professionnel">
-      <a name="id3"></a>
-    </div>
-    <div  class="sectionn" id="Compétences">
-      <a name="id4"></a>
-    </div>
-    <div class="sectionn" id="Centres">
-      <a name="id5"></a>
-    </div>
-  </div>
-</body>
-<footer>
-  <p>updated 12 May, “Perfection is Achieved Not When There Is Nothing More to Add, But When There Is Nothing Left to Take Away” Antoine de Saint-Exupery.</p>
-</footer>
-<script>
-function scrollToAnchor(aid){
-    var aTag = $("a[name='"+ aid +"']");
-    $('html,body').animate({scrollTop: aTag.offset().top},'slow');
-}
-$("#link1").click(function() {
-   scrollToAnchor('id1');
-});
-$("#link2").click(function() {
-   scrollToAnchor('id2');
-});
-$("#link3").click(function() {
-   scrollToAnchor('id3');
-});
-$("#link4").click(function() {
-   scrollToAnchor('id4');
-});
-$("#link5").click(function() {
-   scrollToAnchor('id5');
-});
-
-$(window).scroll(function() {    
-    var scroll = $(window).scrollTop();
-
-     //>=, not <=
-    if (scroll >= 0 && scroll < 1100) {
-        //clearHeader, not clearheader - caps H
-        $("#link1").addClass("active");
-        $("#link2").removeClass("active");
-        $("#link3").removeClass("active");
-        $("#link4").removeClass("active");
-        $("#link5").removeClass("active");
+    </body>
+    <footer>
+        <p>updated 12 May, “Perfection is Achieved Not When There Is Nothing More to Add, But When There Is Nothing Left to Take Away” Antoine de Saint-Exupery.</p>
+    </footer>
+    <script>
+    function scrollToAnchor(aid){
+        var aTag = $("a[name='"+ aid +"']");
+        $('html,body').animate({scrollTop: aTag.offset().top},'slow');
     }
-    else if (scroll >= 1100 && scroll < 2300){
-        $("#link1").removeClass("active");
-        $("#link2").addClass("active");
-        $("#link3").removeClass("active");
-        $("#link4").removeClass("active");
-        $("#link5").removeClass("active");
-    }
+    $("#link1").click(function() {
+    scrollToAnchor('id1');
+    });
+    $("#link2").click(function() {
+    scrollToAnchor('id2');
+    });
+    $("#link3").click(function() {
+    scrollToAnchor('id3');
+    });
+    $("#link4").click(function() {
+    scrollToAnchor('id4');
+    });
+    $("#link5").click(function() {
+    scrollToAnchor('id5');
+    });
 
-    else if (scroll >= 2300 && scroll < 3500){
-        $("#link1").removeClass("active");
-        $("#link2").removeClass("active");
-        $("#link3").addClass("active");
-        $("#link4").removeClass("active");
-        $("#link5").removeClass("active");
-    }
+    $(window).scroll(function() {    
+        var scroll = $(window).scrollTop();
 
-    else if (scroll >= 3500 && scroll < 4700){
-        $("#link1").removeClass("active");
-        $("#link2").removeClass("active");
-        $("#link3").removeClass("active");
-        $("#link4").addClass("active");
-        $("#link5").removeClass("active");
-    }
+        //>=, not <=
+        if (scroll >= 0 && scroll < 1100) {
+            //clearHeader, not clearheader - caps H
+            $("#link1").addClass("active");
+            $("#link2").removeClass("active");
+            $("#link3").removeClass("active");
+            $("#link4").removeClass("active");
+            $("#link5").removeClass("active");
+        }
+        else if (scroll >= 1100 && scroll < 2300){
+            $("#link1").removeClass("active");
+            $("#link2").addClass("active");
+            $("#link3").removeClass("active");
+            $("#link4").removeClass("active");
+            $("#link5").removeClass("active");
+        }
 
-    else if (scroll >= 4700 && scroll < 5900){
-        $("#link1").removeClass("active");
-        $("#link2").removeClass("active");
-        $("#link3").removeClass("active");
-        $("#link4").removeClass("active");
-        $("#link5").addClass("active");
-    }
-}); //missing );
-  </script>
+        else if (scroll >= 2300 && scroll < 3500){
+            $("#link1").removeClass("active");
+            $("#link2").removeClass("active");
+            $("#link3").addClass("active");
+            $("#link4").removeClass("active");
+            $("#link5").removeClass("active");
+        }
+
+        else if (scroll >= 3500 && scroll < 4700){
+            $("#link1").removeClass("active");
+            $("#link2").removeClass("active");
+            $("#link3").removeClass("active");
+            $("#link4").addClass("active");
+            $("#link5").removeClass("active");
+        }
+
+        else if (scroll >= 4700 && scroll < 5900){
+            $("#link1").removeClass("active");
+            $("#link2").removeClass("active");
+            $("#link3").removeClass("active");
+            $("#link4").removeClass("active");
+            $("#link5").addClass("active");
+        }
+    }); //missing );
+    </script>
 </html>
