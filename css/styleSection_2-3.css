@@ -188,12 +188,23 @@
         position: relative;
         left: -45px;
    }
+
 }
 /* PHONES */
 @media screen and (max-width: 734px) {
     #Timeline{
         max-width: 400px;
-        margin-top: 0px;
+        margin-top:30px;
+    }
+    .timeline-item {
+        padding-left: 40px;
+        position: relative;
+    }
+    .timeline-info{
+        padding-top: 0px;
+    }
+    .timeline-marker{
+        top:0px;
     }
 }
 /* TABLET */
