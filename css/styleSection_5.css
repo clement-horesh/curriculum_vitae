@@ -161,7 +161,8 @@
         flex-direction: column-reverse;
     }
     .s5_block_gauche{
-        width: 340px;
+        max-width: 340px;
+        width:100%;
         height: fit-content;
         padding: 30px;
         border-radius: 0px 0px 10px 10px ;
