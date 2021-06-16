@@ -264,14 +264,40 @@
     #s4_top_right{
         margin: 0px;
         margin-top: 30px;
-        max-width: 340px;
-        height: 500px;
+        max-width: 400px;
+        padding: 0px;
+        padding-top: 30px;
+        padding-bottom: 30px;
+        height: fit-content;
+    }
+    #s4_white p{
+        padding-left: 20px;
+        margin: 0px;
+        width: 100%;
+        padding: 0px;
+
+    }
+    #s4_white h1{
+        padding-left: 20px;
+        margin: 0px;
+        width: 100%;
+    }
+    #s4_top_right p{
+        max-width: 350px;
+        width: 100%;
+        padding: 0px;
+        margin-left: 0px;
     }
     .s4_block_title{
         font-size: 30px;
     }
     #s4_bottom{
         max-width: 400px;
+    }
+    .s4_block_item{
+        margin: 15px 0px;
+        max-width: 300px;
+        width: 100%;
     }
     .s4_block_item img{
         height: 70px;
