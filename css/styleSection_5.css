@@ -1,0 +1,188 @@
+.knowmore_w {
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+    transition: all 0.3s ease-in-out, border 0.3s ease-in-out;
+    margin-top: 20px;
+    line-height: 15px;
+}
+.knowmore_w:hover {
+    background-color: white;
+    border:2px solid white;
+    color: rgb(29,29,31);
+}
+.knowmore_w:active {
+	position:relative;
+	top:1px;
+}
+.button_line{
+    display: flex;
+    flex-direction: row;
+    align-items: center;
+}
+.s5_block{
+    height: 655px;
+    max-width: 1100px;
+    width: 100%;
+    border-radius: 10px;
+    margin: 30px auto;
+    display: flex;
+    flex-direction: row;
+}
+.s5_block_gauche{
+    background-color: rgb(87, 194, 54);
+    max-width: 550px;
+    width: 50%;
+    border-radius: 10px 0px 0px 10px ;
+    display: flex;
+    justify-content: center;
+    flex-direction: column;
+    padding-left: 50px;
+    color: white;
+    font-family: Helvetica, Arial, sans-serif;
+}
+#s5_block_gauche2{
+    background-color: rgb(48,55,58);
+}
+.s5_block_gauche p{
+    max-width: 400px;
+    width: 100%;
+    margin-bottom: 30px;
+}
+#s5_button1{
+    width: 150px;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+}
+#s5_button2{
+    width: 300px;
+    margin-top: 5px;
+}
+.s5_block_gauche svg{
+    width: 200px;
+    margin-bottom: 30px;
+    fill: white;
+}
+.s5_block_droite{
+    background-color: blue;
+    max-width: 550px;
+    width: 50%;
+    border-radius: 0px 10px 10px 0px ;
+}
+.s5_block_droite2{
+    background-image: url("../pictures/section_5/BL.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: cover; 
+    max-width: 550px;
+    width: 50%;
+    border-radius: 0px 10px 10px 0px ;
+}
+#s5_block_gauche3{
+    background-color: rgb(43, 44, 48);
+}
+#h1block{
+    margin-top: 30px;
+}
+#s5_block_droite1{
+    background-image: url("../pictures/section_5/juul.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-color: rgb(143,194,54);
+    max-width: 550px;
+    width: 50%;
+    border-radius: 0px 10px 10px 0px ;
+}
+.s5_block_droite3{
+    background-image: url("../pictures/section_5/ECS.png");
+    background-position: center; 
+    background-repeat: no-repeat; 
+    background-size: contain; 
+    background-color: rgb(47,49,54);
+    max-width: 550px;
+    width: 50%;
+    border-radius: 0px 10px 10px 0px ;
+}
+.s5_block_gauche h2{
+    font-family: "Alien";
+    font-size: 90px;
+}
+.s5_block_gauche h3{
+    font-weight: lighter;
+    margin-top: -15px;
+    margin-left: 5px;
+    font-size: 15px;
+    color: rgb(194, 194, 194);
+    margin-bottom: 30px;
+
+}
+.s5_block_gauche h4{
+   font-size: 70px; 
+}
+
+@media screen and (max-width: 1068px) and (min-width: 735px){
+    .s5_block{
+        max-width: 820px;
+        height: 500px;
+        
+    }
+    .s5_block_gauche{
+        padding-left: 30px;
+    }
+    
+    .s5_block_gauche h2{
+        font-family: "Alien";
+        font-size: 60px;
+    }
+    .s5_block_gauche h3{
+        font-weight: lighter;
+        margin-top: -5px;
+        margin-left: 5px;
+        font-size: 15px;
+        color: rgb(194, 194, 194);
+        margin-bottom: 30px;
+    
+    }
+}
+
+@media screen and (max-width: 734px) {
+    .s5_block{
+        max-width: 400px;
+        height: fit-content;
+        flex-direction: column-reverse;
+    }
+    .s5_block_gauche{
+        width: 340px;
+        height: fit-content;
+        padding: 30px;
+        border-radius: 0px 0px 10px 10px ;
+    }
+    .s5_block_droite{
+        width: 100%;
+        height: 300px;
+        border-radius: 10px 10px 0px 0px ;
+    }
+    .s5_block_droite2{
+        width: 100%;
+        height: 300px;
+        border-radius: 10px 10px 0px 0px ;
+    }
+    .s5_block_droite3{
+        width: 100%;
+        height: 300px;
+        border-radius: 10px 10px 0px 0px ;
+    }
+}
+
+
+
+
