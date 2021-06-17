@@ -64,15 +64,25 @@
     justify-content: center;
 }
 #s5_button2{
-    max-width: 300px;
+    max-width: 165px;
     width: 100%;
     margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
 }
-.s5_block_gauche svg{
+#s5_button3{
+    max-width: 165px;
+    width: 100%;
+    margin-top: 5px;
+    padding-left: 10px;
+    padding-right: 10px;
+}
+#Layer_1{
     width: 200px;
     margin-bottom: 30px;
     fill: white;
 }
+
 .s5_block_droite{
     background-color: blue;
     max-width: 550px;
@@ -127,6 +137,23 @@
     margin-bottom: 30px;
 
 }
+.knowmore_w {
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid white;
+	display:inline-block;
+	cursor:pointer;
+	color:white;
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 5px;
+	text-decoration:none;
+    transition: all 0.3s ease-in-out, border 0.3s ease-in-out;
+    margin-top: 20px;
+    line-height: 15px;
+}
+
+
 .s5_block_gauche h4{
    font-size: 70px; 
 }
@@ -172,12 +199,54 @@
         padding-top: 30px;
         border-radius: 0px 0px 10px 10px ;
     }
-    .s5_block_gauche h1,h2,h3,h4,p,{
-        padding-left: 30px;
+    #s5_button2{
+    height: fit-content;
+    margin: 0px;
+    margin-left: 5px;
+    }
+    #s5_button1{
+    margin: 0px;
+    margin-right: 5px;
+    }
+    #s5_button3{
+        margin: 0 auto;
+    }
+    .s5_block_gauche h4{
+        font-size: 50px; 
+        margin-left: 20px;
+     }
+    .buttonmobile{
+        display: flex;
+        width: 100%;
+        flex-direction: row;
+        align-items: center;
+        justify-content: center;
+    }
+    #Layer_1{
+        width: 120px;
+        margin-left: 20px;
+        fill: white;
+    }
+    .s5_block_gauche h2{
+        font-size: 50px;
+        margin-left: 20px;
+    }
+    .s5_block_gauche h1{
+        font-size: 20px;
+        margin-left: 20px;
+
+    }
+    .s5_block_gauche h3{
+        margin-top: px;
+        font-size: 15px;
+        margin-left: 20px;
+
     }
     .s5_block_gauche p{
-        max-width: 350px;
+        max-width: 250px;
         width: 100%;
+        font-size: 15px;
+        margin-left: 20px;
     }
     .s5_block_droite{
         width: 100%;

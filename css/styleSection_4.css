@@ -270,23 +270,18 @@
         padding-bottom: 30px;
         height: fit-content;
     }
-    #s4_white p{
-        padding-left: 20px;
+    #s4_white{
         margin: 0px;
         width: 100%;
-        padding: 0px;
-
-    }
-    #s4_white h1{
-        padding-left: 20px;
-        margin: 0px;
-        width: 100%;
-    }
-    #s4_top_right p{
-        max-width: 350px;
-        width: 100%;
-        padding: 0px;
+        padding: 0px 10px;
         margin-left: 0px;
+    }
+    #s4_white p{
+        margin: 0px;
+    }
+
+    #s4_white h1{
+        margin: 0px;
     }
     .s4_block_title{
         font-size: 30px;
@@ -294,8 +289,11 @@
     #s4_bottom{
         max-width: 400px;
     }
+    #adobe{
+        margin-top: 10px;
+    }
     .s4_block_item{
-        margin: 15px 0px;
+        margin: 0px;
         max-width: 300px;
         width: 100%;
     }
