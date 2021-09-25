@@ -1,9 +1,12 @@
 /* COMMUN */
-#Compétences{
-background: rgb(247,247,247);
-background: linear-gradient(0deg, rgba(247,247,247,1) 0%, rgba(255,255,255,1) 100%);
+#center{
+    margin: 0 auto;
+    margin-top: 200px;
+    text-align: center;
+    max-width: 340px;
 }
 .Block_competences{
+    background-color: rgb(247,247,247);
     max-width: 2400px;
     width: 100%;
     height: 900px;
