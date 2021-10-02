@@ -5,8 +5,12 @@
     text-align: center;
     max-width: 340px;
 }
+#Compétences{
+    background: rgb(255,255,255);
+background: linear-gradient(180deg, rgba(255,255,255,1) 0%, rgba(247,247,247,1) 100%);
+}
 .Block_competences{
-    background-color: rgb(247,247,247);
+    
     max-width: 2400px;
     width: 100%;
     height: 900px;
@@ -44,6 +48,9 @@
     align-items: center;
     margin-right: 400px;
 }
+.miniimg{
+    display: none;
+}
 #office{
     background-image: url("../pictures/section_4/office.png");
 }
@@ -57,7 +64,7 @@
 .Block_competences p{
     max-width: 340px;
 }
-.Block_competences img{
+.imgicon{
     max-width: 40px;
     margin-left: 5px;
 }
@@ -66,9 +73,115 @@
 }
 
 @media screen and (max-width: 1068px) and (min-width: 735px){
-
+    .Block_competences{
+        max-width: 2400px;
+        width: 100%;
+        height: fit-content;
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center; 
+        padding-left: 0px;
+        margin-top: 200px;
+        text-align: center;
+    }
+    .Block_competences div{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #adobe{
+        background-image: none;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+    #adobe_div1{
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+   
+    #office{
+        background-image: none;
+    }
+    .Block_competences div div{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .miniimg{
+        display: flex;
+        height: 400px;
+        max-width: 1000px;
+        margin-top: 30px;
+        object-fit: cover;    
+    }
 }
 
+
 @media screen and (max-width: 734px) {
+    .Block_competences{
+        max-width: 2400px;
+        width: 100%;
+        height: fit-content;
+        background-image: none;
+        display: flex;
+        align-items: center;
+        justify-content: center;
+        background-position: center; 
+        padding-left: 0px;
+        margin-top: 200px;
+        text-align: center;
+    }
+    .Block_competences div{
+        width: 100%;
+        height: fit-content;
+        display: flex;
+        flex-direction: column;
+        align-items: center;
+        justify-content: center;
+    }
+    
+    #adobe{
+        background-image: none;
+        justify-content: center;
+        align-items: center;
+        padding-left: 0px;
+    }
+    #adobe_div1{
+        height: fit-content;
+        width: 100%;
+        text-align: center;
+        align-items: center;
+        margin-right: 0px;
+    }
+   
+    #office{
+        background-image: none;
+    }
+    .Block_competences div div{
+        width: fit-content;
+        height: fit-content;
+        display: flex;
+        flex-direction: row;
+    
+    }
+    .miniimg{
+        display: flex;
+        height: 200px;
+        max-width: 1000px;
+        margin-top: 30px;
+        object-fit: cover;    
+    }
 
 }
