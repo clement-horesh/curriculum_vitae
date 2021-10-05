@@ -88,6 +88,7 @@
         margin: 0 auto;
         flex-direction: row;
         height: fit-content;
+        margin-top: 20px;
     }
     #s1_left{
         height: 600px;
