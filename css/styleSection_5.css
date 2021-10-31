@@ -5,6 +5,7 @@
     width: 100%;
     margin: 30px auto;
     display: flex;
+    border-radius: 18px;
     flex-direction: row-reverse;
     justify-content: center;
     background-color: rgb(247,247,247);
@@ -119,6 +120,7 @@
         padding-left: 30px;
         padding-right: 30px;
         padding-bottom: 75px;
+        border-radius: 0px;
     }
     .s5_gauche{
         max-width: 400px;
@@ -167,13 +169,4 @@
         height: fit-content;
         margin-top: 0px;
     }
-}
-
-
-
-
-a{
-    cursor: pointer;
-    color: #06c;
-    font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
 }

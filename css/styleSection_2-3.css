@@ -1,33 +1,4 @@
 /*================================== TIMELINE ==================================*/
-.knowmore {
-	background-color:transparent;
-	border-radius:42px;
-	border:2px solid rgb(29,29,31);
-	display:inline-block;
-	cursor:pointer;
-	color:rgb(29,29,31);
-	font-family:Arial;
-	font-size:15px;
-	padding:10px 20px;
-	text-decoration:none;
-    transition: all 0.3s ease-in-out, border 0.3s ease-in-out;
-    margin-top: 20px;
-    line-height: 15px;
-}
-.knowmore:hover {
-    background-color: rgb(29,29,31);
-    border:2px solid rgb(29,29,31);
-    color: white;
-}
-.knowmore:active {
-	position:relative;
-	top:1px;
-}
-.knowmore span{
-    font-size: 10px;
-    color: red;
-    font-family: Arial, Helvetica, sans-serif;
-}
 
 /*-- GENERAL STYLES ------------------------------*/
 #Timeline{
@@ -57,20 +28,6 @@
     font-weight: bold;
     margin-top: 15px;
 }
-.timeline-content p{
-    font-size: 15px;
-    font-family: Helvetica, Arial, sans-serif;
-    color: black;
-}
-.timeline {
-    line-height: 1.4em;
-    list-style: none;
-    margin: 0;
-    padding: 0;
-}
-.timeline h1, .timeline h2, .timeline h3, .timeline h4, .timeline h5, .timeline h6 {
-    line-height: inherit;
-}
 /*----- TIMELINE ITEM -----*/
 .timeline-item {
     padding-left: 40px;
@@ -80,16 +37,15 @@
     padding-bottom: 0;
 }
 /*----- TIMELINE INFO -----*/
-.timeline-info {
-    font-size: 12px;
-    font-family: Helvetica, Arial, sans-serif;
-    font-weight: 700;
-    letter-spacing: 3px;
+.timeline-info p{
     margin: 0 0 0.5em 0;
-    text-transform: uppercase;
-    white-space: nowrap;
-    padding-top: 30px;
+    text-transform: uppercase; 
+    font-weight: 600;
+    font-size: 15px;
+    white-space: nowrap;  
     transition: color 0.3s ease-in-out, border 0.3s ease-in-out;
+    color: rgb(223, 223, 227);
+    margin-top: 26px;
 }
 /*----- TIMELINE MARKER -----*/
 .timeline-marker {
@@ -100,27 +56,27 @@
     width: 15px;
 }
 .timeline-marker:before {
-    background: rgb(91,91,91);
+    background: rgb(223, 223, 227);
     border: 1px solid transparent;
     border-radius: 100%;
     content: "";
     display: block;
     height: 10px;
     position: absolute;
-    top: 6px;
+    top: 1px;
     left: 1.5px;
     width: 10px;
     transition: background 0.3s ease-in-out, border 0.3s ease-in-out;
 }
 .timeline-marker:after {
     content: "";
-    width: 3px;
-    background: rgb(91,91,91);
+    width: 2px;
+    background: rgb(223, 223, 227);
     display: block;
     position: absolute;
-    top: 24px;
-    bottom: 0;
-    left: 6px;
+    top: 25px;
+    bottom: 10px;
+    left: 6.5px;
 }
 .timeline-item:last-child .timeline-marker:after {
     content: none;
@@ -212,4 +168,36 @@
     #Timeline{
         max-width: 820px;
     }
+}
+
+
+/* BUTTON */
+.knowmore {
+	background-color:transparent;
+	border-radius:42px;
+	border:2px solid rgb(29,29,31);
+	display:inline-block;
+	cursor:pointer;
+	color:rgb(29,29,31);
+	font-family:Arial;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+    transition: all 0.3s ease-in-out, border 0.3s ease-in-out;
+    margin-top: 20px;
+    line-height: 15px;
+}
+.knowmore:hover {
+    background-color: rgb(29,29,31);
+    border:2px solid rgb(29,29,31);
+    color: white;
+}
+.knowmore:active {
+	position:relative;
+	top:1px;
+}
+.knowmore span{
+    font-size: 10px;
+    color: red;
+    font-family: Arial, Helvetica, sans-serif;
 }

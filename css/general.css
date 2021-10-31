@@ -1,138 +1,48 @@
-/* GENERAL */
-*{margin: 0px;padding: 0px;box-sizing: border-box;}
+/* CSSTidy 1.3: Sat, 16 Oct 2021 12:03:08 -0700 */
+* {
+    box-sizing:border-box;
+    margin:0;
+    padding:0;
+}
 
-html{
-    background-color: white;
+
+html {
+    background-color:#FFF;
 }
-body{
-    /*background-color: rgb(245,245,247);*/
-    background-color: rgb(247,247,247);
+body {
+    background-color:#f7f7f7;
 }
-footer{
-    padding:  30px 0px 30px  0px;
-    width: 100%;
-    background-color: rgb(247,247,247);
-    display: flex;
-    justify-content: center;
-    text-align: center;
+footer {
+    width:100%;
+    background-color:#f7f7f7;
+    display:flex;
+    justify-content:center;
+    text-align:center;
+    padding:30px 0;
 }
-section{
-    width: 100%;
-    padding: 80px 30px 100px 30px;
-    margin: 0 auto;
+section {
+    width:100%;
+    margin:0 auto;
+    padding:80px 30px 100px;
 }
-#Introduction{
-    background-color: white;
-    padding-top: 200px;
-}
-#Centres{
-    background-color: white;
-}
-#Compétences{
-    background-color: rgb(247,247,247);
-    padding-left: 0px;
-    padding-right: 0px;
-}
-#Download{
-    background-color: rgb(247,247,247);
+
+#Introduction {
+    background-color:#FFF;
+    padding-top:30px;
     padding-bottom: 30px;
 }
-/* TEXT */
-h1{
-    font-family: "SF Pro Display","Helvetica Neue",Helvetica, Arial, sans-serif;
-    font-size: 60px;
-    line-height: 55px;
-    letter-spacing: -1px;
-    font-weight: bold;
-}
-h2{
-    margin-top: .8em;
-    font-size: 48px;
-    line-height: 1.08349;
-    font-weight: 600;
-    letter-spacing: -.003em;
-    font-family: "SF Pro Display","Helvetica Neue","Helvetica","Arial",sans-serif;
-}
-p{
-    margin-top: .8em;
-    font-size: 17px;
-    line-height: 1.47059;
-    font-weight: 400;
-    letter-spacing: -.022em;
-    font-family: "SF Pro Text","SF Pro Icons","Helvetica Neue","Helvetica","Arial",sans-serif;
-    color: #1d1d1f;
-    font-style: normal;
-}
-a{
-    margin-top: .8em;
-    color: #06c;
-    font-family: Helvetica, Arial, sans-serif;
-}
-a:hover{
-    text-decoration: underline;
-}
-.TitreSection{
-    max-width: 1100px;
-    margin: 0 auto;
-    text-align: center;
-}
-/* FONT */
-@font-face {
-    font-family: "Kayak";
-    src: url("../font/Kayak/light.otf");
-  }
-  @font-face {
-    font-family: "Radnika";
-    src: url("../font/Radnika/Radnika-Medium.otf");
-  }
-  @font-face {
-    font-family: "Alien";
-    src: url("../font/Alien/ALIENS1986.woff2") format("woff2"),
-    url("../font/Alien/ALIENS1986.woff") format("woff");
-  }
-  @font-face {
-    font-family: "SF Pro Display";
-    src: url("../font/SFProDisplay.ttf");
+
+#Compétences {
+    background-color:#f7f7f7;
+    padding-left:0;
+    padding-right:0;
 }
 
-@media screen and (max-width: 734px) {
-    footer{
-        padding:  30px 0px 30px  0px;
-        width: 100%;
-        background-color: rgb(247,247,247);
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
-    .div_g_description{
-        max-width: 400px;
-    }
-    .g_description{
-        font-size: 15px;
-        padding-left: 0px;
-    }
-    h1{
-        font-size: 40px;
-        line-height: 35px;
-    }
+#Centres {
+    background-color:#FFF;
 }
 
-@media screen and (max-width: 1068px) and (min-width: 735px){
-    h1{
-        font-size: 50px;
-        line-height: 45px;
-    }
-    footer{
-        max-width: 100%;
-    }
-    footer{
-        padding:  30px 0px 30px  0px;
-        width: 100%;
-        background-color: rgb(247,247,247);
-        display: flex;
-        justify-content: center;
-        text-align: center;
-    }
+#Download {
+    background-color:#f7f7f7;
+    padding-bottom:30px;
 }
-
-
