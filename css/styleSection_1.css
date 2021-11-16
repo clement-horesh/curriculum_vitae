@@ -1,3 +1,8 @@
+#Introduction {
+    background-color:#FFF;
+    padding-top:30px;
+    padding-bottom: 30px;
+}
 .cards {
     max-width: 1400px;
     margin: 0 auto;
@@ -15,6 +20,11 @@
     justify-content:center;
     align-items:center;
     background-color: #f7f7f7;
+}
+#Introduction .card:last-child{
+    background-image: url(../pictures/section_1/right.jpg);
+    background-size: cover;
+    background-position: center;
 }
 @media screen and (max-width: 1068px) and (min-width: 735px){
     .cards{

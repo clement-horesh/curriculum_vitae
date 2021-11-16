@@ -17,7 +17,6 @@
     flex-direction: column;
     align-items: center;
     justify-content: center;
-    padding: 30px;
     text-align: center;
 }
 #dl_select_box p{
@@ -100,10 +99,12 @@
     #dl{
         max-width: 820px;
         width: 100%;
+        border-radius: 0;
     }
     #handmade{
         width: 100%;
         max-width: 100%;
+        border-radius: 0;
     }
     #dl{
         max-width: 1400px;
@@ -139,7 +140,7 @@
         margin: 0px auto;
         margin-top: 50px;
         padding-top: 100px;
-        
+        border-radius: 0;
         display: flex ;
         flex-direction: column;
         background-color: white;
@@ -152,9 +153,27 @@
         padding-right: 30px;
         margin-left: 0px;
         width: 50%;
+        border-radius: 0;
         display: flex;
         justify-content: center;
         align-items: center;
         flex-direction: column;
+    }
+    #handmade{
+        border-radius: 0px;
+        width: 100%;
+        margin: 0 auto;
+
+    }
+    #handmade span{
+        background: linear-gradient(90deg, rgba(0,151,255,1) 0%, rgba(0,52,255,1) 100%);
+        -webkit-background-clip: text;
+        -webkit-text-fill-color: transparent;
+        font-weight: bold;
+        font-size: 40px;
+
+    }
+    #handmade h2{
+        font-size: 40px;
     }
 }
