@@ -166,6 +166,9 @@
     .s5_droite{
         height: 300px;
     }
+    .s5_block2{
+        height: 400px;
+    }
     /*BLOCK PODS*/
     #pods .s5_droite{
         background-image: url("../pictures/section_5/juul2.png");
